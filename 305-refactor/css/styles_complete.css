@@ -68,13 +68,14 @@ footer {
     align-items: center;
 }
 
-.tech-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .tech-card {
+    flex: 1 1 200px;
     border-radius: 5px;
     padding: 20px;
     display: flex;
@@ -89,7 +90,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.tech-flex {
+.additional-tech-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
