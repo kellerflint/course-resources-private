@@ -12,14 +12,18 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
-app.get('/test', (req, res) => {
-    res.render('test');
+app.get('/page', (req, res) => {
+    res.sendFile(__dirname + '/page.html');
 });
 
-app.post('/success', (req, res) => {
+app.post('/confirm', (req, res) => {
     console.log(req);
     const data = req.body;
-    res.send(data);   
+    
+    // res.sendFile(__dirname + '/confirm.html');
+
+    // res.send(data);
+    res.render('confirm', { details: data });
 });
 
 app.listen(PORT, () => {

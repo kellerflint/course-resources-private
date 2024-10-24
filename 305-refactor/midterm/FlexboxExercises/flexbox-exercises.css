@@ -1,0 +1,98 @@
+/* Exercise 1: */
+/* Target: #container1 */
+/* Goal: Display items in a row, 
+align them to the right side of the container */
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Exercise 2: */
+/* Target: #container2 */
+/* Goal: Display items in reverse order, 
+align them to the left side of the container */
+
+#container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* Exercise 3: */
+/* Target: #container3 */
+/* Goal: Align items to the center (horizontally), 
+align items to the center (vertically) */
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Exercise 4: */
+/* Target: #container4 */
+/* Goal: Add equal space between items, 
+move the third item to the beginning */
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container4 :last-child {
+    order: -1;
+}
+
+/* Exercise 5: */
+/* Target: #container5 */
+/* Goal: Align items 1 and 3 to the top, 
+align item 2 and 4 to the bottom, 
+align all items to the right */
+
+#container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#container5 :nth-child(odd) {
+    align-self: flex-start;
+}
+
+#container5 :nth-child(even) {
+    align-self: flex-end;
+}
+
+/* Exercise 6: */
+/* Target: #container6 */
+/* Goal: Align items to the right, 
+allow items to wrap maintaining a width of 300px */
+
+#container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Preserve the 300px width (don't change this rule) */
+#container6 .box {
+    width: 300px;
+}
+
+/* Exercise 7: */
+/* Target: #container7 */
+/* Goal: Display items two or more columns, 
+center the items vertically and horizontally */
+
+#container7 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

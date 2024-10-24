@@ -1,7 +1,7 @@
 // 1. Calculate the sum of all numbers in an array (using a loop)
 
 function sumArray(array) {
-
+    
 }
 
 // Test for sum array

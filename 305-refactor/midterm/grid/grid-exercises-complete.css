@@ -1,0 +1,115 @@
+/*
+Properties to use:
+
+display
+grid-template-columns
+grid-template-rows
+grid-template-areas
+grid-area
+
+gap
+justify-content
+align-content
+align-items
+*/
+
+/* For all, give it a gap of 10px; */
+
+/* 1. Create a 2x2 grid of 100px cells. Align the grid to the right of the container. */
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* 2. Create a grid of 3 columns. The middle column should be twice the size of the left / right columns. */
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+
+/* 5. Create a grid of 3 columns with horizontal and vertical alignment. Each column should have a width of 100px. */
+
+.container-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+
+    /* Align grid items horizontally */
+    justify-content: center;
+
+    /* Align grid items vertically */
+    align-content: center;
+}
+
+
+
+/* Challenges */
+
+
+
+
+
+/* 3. Create a basic page layout with header, footer, main content, recommendations, and navigation (see assignment page) using template areas. */
+
+.container-3 {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main main"
+        "nav recommended-1 recommended-2"
+        "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+.recommended-1 {
+    grid-area: recommended-1;
+}
+
+.recommended-1 {
+    grid-area: recommended-2;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* 4. Create a grid of 3 columns and vertical alignment. */
+
+.container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+/* 6. Create a grid of 3 equally sized and centered columns with space between each row. */
+
+.container-6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    /* Distribute space between grid items */
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,77 @@
+/* Base styling for all exercises */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.container-3 {
+    height: 400px;
+}
+
+/* Specific styling for layout exercises */
+
+.container-3 > * {
+    background-color: #ecf0f1;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #585858;
+}
+
+.container-3 header {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.container-3 nav {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.container-3 main {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.container-3 .recommended-1, .container-3 .recommended-2 {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.container-3 footer {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.container-4 {
+    height: 200px;
+}
+
+.container-5, .container-6 {
+    height: 400px;
+}
