@@ -30,10 +30,20 @@ app.get('/', (req, res) => {
     res.render('home', { message: null });
 });
 
+// app.post('/', (req, res) => {
+//     let number = parseInt(req.body.number);
+//     let message = buckleConverter(number);
+//     res.render('home', { message: message });
+// });
+
 app.post('/', (req, res) => {
-    let number = parseInt(req.body.number);
-    let message = buckleConverter(number);
-    res.render('home', { message: message });
+    if (req.body.number) {
+        let number = parseInt(req.body.number);
+
+        let message = buckleConverter(number);
+        
+        res.render('home', { message: message });
+    }
 });
 
 // Server

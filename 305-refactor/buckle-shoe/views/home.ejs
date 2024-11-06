@@ -6,17 +6,19 @@
 </head>
 <body>
     <div class="container">
+
         <h1>One, Two, Buckle My Shoe</h1>
         
         <form method="post" action="/">
             <label for="number">Enter a number (1-10):</label>
-            <input type="number" name="number" id="number" required>
+            <input type="number" name="number" id="number">
             <button type="submit">Submit</button>
         </form>
 
         <% if (message) { %>
             <p class="result"><%= message %></p>
         <% } %>
+        
     </div>
 </body>
 </html>

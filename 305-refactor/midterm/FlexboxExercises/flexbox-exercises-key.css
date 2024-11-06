@@ -16,7 +16,6 @@
     justify-content: flex-end;
 }
 
-
 /* Exercise 3: */
 /* Target: #container3 */
 /* Goal: Align items to the center (horizontally), align items to the center (vertically) */
@@ -27,12 +26,12 @@
     align-items: center;
 }
 
-
 /* Exercise 4: */
 /* Target: #container3 */
 /* Goal: Add equal space between items, move the third item to the beginning */
 #container4 {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between; /* or one of the others */
 }
 
@@ -42,10 +41,11 @@
 
 
 
-
+/*
 #container4 :nth-child(3) {
     order: -1;
 }
+*/
 
 /* Exercise 5: */
 /* Target: #container5 */
