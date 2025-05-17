@@ -1,0 +1,72 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.main-heading {
+  font-size: 2em;
+}
+
+#intro {
+  color: darkgreen;
+  font-style: italic;
+}
+
+.section-heading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fancy {
+  color: orange;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #e6e6e6;
+  /* Light gray */
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Updated styles to match the new section IDs */
+
+#introduction {
+  background-color: #fff9d6; /* Light yellow */
+}
+
+#html-basics {
+  background-color: #d6f5d6; /* Light green */
+}
+
+#css-basics {
+  background-color: #ffe6f2; /* Light pink */
+}
+
+#useful-links {
+  background-color: #d0e7ff; /* Light blue */
+}
+
+/* Adjusted h3 colors for proper contrast */
+
+#introduction h3 {
+  color: darkblue; /* Fine as is */
+}
+
+#html-basics h3 {
+  color: maroon; /* Contrasts with light green */
+}
+
+#css-basics h3 {
+  color: darkgreen; /* Contrasts with light pink */
+}

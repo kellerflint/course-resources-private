@@ -1,4 +1,4 @@
-/* Question Bank */
+/* Starting Question Bank */
 
 // Write a function that takes in an array and element as parameters and returns the number of times the element appears in the array
 function countOccurrences(arr, element) {
@@ -25,8 +25,7 @@ function reverseArray(arr) {
     // TODO: your code here
 }
 
-
-/* Challenges */
+/* More Challenging Questions */
 
 // Write a function that takes in an array and an element as parameters and returns an array containing all indices where the element appears in the array
 function findAllIndices(arr, element) {
@@ -51,33 +50,16 @@ function bigFizzBuzz(n) {
 
 
 
+/* Short Response Questions */
 
-/* PRACTICE */
-// Write a function that takes in an array as a parameter and returns the number of even numbers in the array
-function countEvenNumbers(arr) {
-    // TODO: your code here
-}
-
-// Write a function that takes in an array and element as parameters and returns the index of the first occurrence of that element
-function findFirstIndex(arr, element) {
-    // TODO: your code here
-}
-
-// Write a function that takes in a string as a parameter and returns the reversed version of that string
-function reverseString(str) {
-    // TODO: your code here
-}
-
-// Write a function that takes in two numbers and an operator as parameters and returns the result of the mathematical operation
-function calculate(num1, operator, num2) {
-    // TODO: your code here
-}
-
-// Write a function that takes in a number n as a parameter and prints the FizzBuzz sequence from 1 to n
-function fizzBuzz(n) {
-    // TODO: your code here
-}
-
+// Give an example of a request and a response in the context of web development
 // request - client -> server
 // response - server -> client
-// 
+
+// What does node.js allow us to do in web development?
+// Node.js allows us to run JavaScript on the server side (outside of the browser).
+// We can use JavaScript to write server-side code that interacts with databases, file systems, etc.
+
+// What is HTTP and what is its role in web development?
+// HTTP is a protocol that defines how messages are formatted and transmitted over the web.
+// It stands for Hypertext Transfer Protocol and is the foundation of data communication on the web.
